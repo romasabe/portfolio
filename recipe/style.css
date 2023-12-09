@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 15px;
+    background-color: #264653;
+}
+main{
+   background-color: #aec3b0;
+   height: fit-content;
+   width: 900px;
+   margin: 15px;
+   border: black solid 2px;
+}
+header{
+    background-image: url(pozolebanner.jpg);
+    background-color: #E76F51;
+    color: beige;
+    border: 4px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    height: 200px;
+}
+p{
+    font-weight: 500;
+    font-size: 24px;
+}
+li{
+    font-weight: 800;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+}
+.heading{
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #E76F51;
+    position: absolute;
+    right: 12px;
+    top: 45px;
+}
+h2{
+    font-size: 24px;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Nunito', sans-serif;
+}
+aside{
+    background-color: #aec3b0;
+    width: 415px;
+    height: 2300px;
+    float: right;
+    border: black 2px solid;
+}
+.infoBox{
+    height: 366px;
+    width: 380px;
+    background-color: #dce5dd;
+    padding-top: 0px;
+    padding: 10px;
+    text-align: auto;
+    margin: 60px 5px 60px 5px;
+    border: solid black;
+    float: left;
+    top: 10px;
+}
+.text{
+    font-size: 15.5px;
+}
+#whatIsPozole{
+    height: 670px;
+}
+#history{
+    height: 800px;
+}
+.recipe{
+    margin: 10px;
+}
+img{
+    float: top;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+.topicHead{
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    background-color: coral;
+    float: top;
+    color:beige;
+}
+.pozole-sidebar{
+    width: 380px;
+    border: black 2px solid;
+}
+article{
+    margin: 10px;
+    height: 950px;
+    width: 425px;
+    background-color: #2A9D8F;
+    color: antiquewhite;
+    border: black 2px solid;
+}
+.ingredients{
+    float: left;
+}
+.extra{
+    float:right;
+}
+.procedure{
+    height: fit-content;
+    width: fit-content;
+    clear: left;
+}
+.video{
+    height: fit-content;
+    width: auto;
+}
+footer{
+    background-color: #b66d0d;
+    color: beige;
+    height: fit-content;
+    width: auto;
+    position: relative;
+    bottom: 0px;
+    padding: 5px;
+    border: black solid 4px;
+}
+.ref{
+    font-size: 12px;
+}
+a:visited{
+    color: pink;
+}
+video{
+    display: inline;
+    margin: 10px;
+    width: 850px
+}
+

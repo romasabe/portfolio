@@ -1,0 +1,5 @@
+.jumbotron{
+    width: 100px;
+    overflow-y: hidden;
+    z-index: -1;
+}
