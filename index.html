@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+  <html lang="en">
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
@@ -16,7 +17,7 @@
         <nav class="navbar navbar-expand-lg bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand text-light" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -38,42 +39,29 @@
         </nav>
       </div>
       <!--End of Navbar-->
-      <div class="row mt-2 mb-4"> <!--Jumbotron-->
-        <div class="col-12 p-5 bg-dark-subtle">
-          <div class="col-4 p-3">
-            <h1>Hi!</h1>
-            <p>My name is Roman Silberstein, I am a student at Albert G. Lane Technical High School. This is my portfolio.
-            </p>
-          </div>
-          <div class="col-6 overflow-hidden">
-            <img src="#" alt="picture of me">
-          </div>
-        </div>
-        <!--end of Jumbotron-->
-        <!--Bio-->
-    </main>
-    <main class="container">
-      <div class="row">
-        <div class="col-sm-8 bg-info-subtle">
-          <h1>Bio</h1>
+      <div class="row mt-2 mb-4 p-5 align-items-center clearfix"> <!--Jumbotron-->
+        <div class="col-12 bg-dark-subtle p-3">
+          <h1 class="font-big">Hi!</h1>
           <p>I'm Roman Silberstein, I am a Freshman in the Computer Science Concentration at Lane Tech.
-            I'm very interested in programing and creating. I'd like to think of myself as a creative 
-            person. I used to make comics with my best freind from elementary school and have always 
-            loved that creative process. I love music and video games, I spend most of my free time 
-            playing video games or listening to my favorite songs. I have a playlist that has over 
-            500 songs on it. Id love to pursue a career in Computer Science, creating programs and 
-            comming up with interesting solutions to problems has always interested me. With regards to 
-            academics, I am in an AP class currently and plan to take more later in the year. 
+            I'm very interested in programing and creating. I'd like to think of myself as a creative
+            person. I used to make comics with my best freind from elementary school and have always
+            loved that creative process. I love music and video games, I spend most of my free time
+            playing video games or listening to my favorite songs. I have a playlist that has over
+            500 songs on it. Id love to pursue a career in Computer Science, creating programs and
+            comming up with interesting solutions to problems has always interested me. With regards to
+            academics, I am in an AP class currently and plan to take more later in the year.
             Currently I have a 4.0 GPA and try my best in every class to get an A.
           </p>
+          <div class="float-end">
+            <img class="jumbotronImg border border-5 border-dark rounded" src="media/picture_of_me.jpg" alt="picture of me">
+          </div>
         </div>
-        <div class="col-sm-4 overflow-hidden">
-          <img src="media/placeholder.jpg" alt="placeholder">
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <!--End of Bio Start of career summary-->
-        <div class="col-4 card me-1 my-3">
+      <!--end of Jumbotron-->
+      <!--Bio-->
+      <!--Start of career summary-->
+      <div class="row justify-content-center py-5">
+        <div class="col-4 card">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Career</h5>
@@ -82,20 +70,22 @@
           </div>
         </div>
         <!--end of career start of recipe-->
-        <div class="col-3 card me-1 my-3">
+        <div class="col-4 card">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Recipe</h5>
-            <p class="card-text">This is a Pozole Recipe that has been passed down from my grandparents, to my mom, to me. Now it is being Passed on to you with you.</p>
+            <p class="card-text">This is a Pozole Recipe that has been passed down from my grandparents, to my mom, to me.
+              Now it is being Passed on to you with you.</p>
             <a href="#" class="btn btn-primary">Go to page</a>
           </div>
         </div>
         <!--end of recipe start of hobbies-->
-        <div class="col-4 card my-3">
+        <div class="col-4 card">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Hobbies</h5>
-            <p class="card-text"> I enjoy playing video games, board games, and listening to music. here you can see my favorite artists, video games, and board games.</p>
+            <p class="card-text"> I enjoy playing video games, board games, and listening to music. here you can see my
+              favorite artists, video games, and board games.</p>
             <a href="#" class="btn btn-primary">Go to page</a>
           </div>
         </div>
@@ -112,6 +102,9 @@
     </div>
     <!--end of Footer-->
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
   </body>
-</html>
+
+  </html>
