@@ -1,3 +1,9 @@
 .jumbotronImg{
     height: 500px;
 }
+.source:link{
+    color: white;
+}
+.source:visited{
+    color:beige;
+}
